@@ -1,0 +1,91 @@
+2024-12-29 10:58:29,350 - INFO - Started server process [50101]
+2024-12-29 10:58:29,351 - INFO - Waiting for application startup.
+2024-12-29 10:58:29,351 - INFO - Application startup complete.
+2024-12-29 10:59:08,225 - INFO - Shutting down
+2024-12-29 10:59:08,327 - INFO - Finished server process [50101]
+2024-12-29 10:59:08,328 - ERROR - Traceback (most recent call last):
+  File "/home/denys/.local/lib/python3.10/site-packages/starlette/routing.py", line 700, in lifespan
+    await receive()
+  File "/usr/lib/python3/dist-packages/uvicorn/lifespan/on.py", line 135, in receive
+    return await self.receive_queue.get()
+  File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2024-12-29 10:59:11,125 - INFO - Started server process [50129]
+2024-12-29 10:59:11,126 - INFO - Waiting for application startup.
+2024-12-29 10:59:11,126 - INFO - Application startup complete.
+2024-12-29 11:01:57,389 - INFO - Shutting down
+2024-12-29 11:01:57,490 - INFO - Waiting for application shutdown.
+2024-12-29 11:01:57,491 - INFO - Application shutdown complete.
+2024-12-29 11:01:57,491 - INFO - Finished server process [50129]
+2024-12-29 11:01:58,810 - INFO - Started server process [50244]
+2024-12-29 11:01:58,811 - INFO - Waiting for application startup.
+2024-12-29 11:01:58,812 - INFO - Application startup complete.
+2024-12-29 11:02:20,944 - INFO - Checking status for task ID: b268c28a-4ace-45aa-a3e8-acbd9f6b3288
+2024-12-29 11:02:20,946 - ERROR - Task failed: 'tasks.process_weather_task'
+2024-12-29 11:07:26,987 - INFO - Shutting down
+2024-12-29 11:07:27,088 - INFO - Waiting for application shutdown.
+2024-12-29 11:07:27,088 - INFO - Application shutdown complete.
+2024-12-29 11:07:27,088 - INFO - Finished server process [50244]
+2024-12-29 11:07:28,330 - INFO - Started server process [50467]
+2024-12-29 11:07:28,331 - INFO - Waiting for application startup.
+2024-12-29 11:07:28,331 - INFO - Application startup complete.
+2024-12-29 11:09:25,115 - INFO - Shutting down
+2024-12-29 11:09:25,217 - INFO - Waiting for application shutdown.
+2024-12-29 11:09:25,217 - INFO - Application shutdown complete.
+2024-12-29 11:09:25,217 - INFO - Finished server process [50467]
+2024-12-29 11:09:26,475 - INFO - Started server process [50560]
+2024-12-29 11:09:26,477 - INFO - Waiting for application startup.
+2024-12-29 11:09:26,477 - INFO - Application startup complete.
+2024-12-29 11:10:27,545 - INFO - Shutting down
+2024-12-29 11:10:27,647 - INFO - Finished server process [50560]
+2024-12-29 11:10:27,648 - ERROR - Traceback (most recent call last):
+  File "/home/denys/.local/lib/python3.10/site-packages/starlette/routing.py", line 700, in lifespan
+    await receive()
+  File "/usr/lib/python3/dist-packages/uvicorn/lifespan/on.py", line 135, in receive
+    return await self.receive_queue.get()
+  File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2024-12-29 11:10:31,195 - INFO - Started server process [50633]
+2024-12-29 11:10:31,196 - INFO - Waiting for application startup.
+2024-12-29 11:10:31,197 - INFO - Application startup complete.
+2024-12-29 11:11:16,003 - INFO - Checking status for task ID: 108b4d16-aa46-4be7-98bf-6ccf4cda134a
+2024-12-29 11:11:16,004 - INFO - Task is still running
+2024-12-29 11:11:20,370 - INFO - Checking status for task ID: 108b4d16-aa46-4be7-98bf-6ccf4cda134a
+2024-12-29 11:11:20,372 - INFO - Task is still running
+2024-12-29 11:11:30,469 - INFO - Checking status for task ID: 108b4d16-aa46-4be7-98bf-6ccf4cda134a
+2024-12-29 11:11:30,470 - INFO - Task is still running
+2024-12-29 11:12:05,590 - INFO - Checking status for task ID: 108b4d16-aa46-4be7-98bf-6ccf4cda134a
+2024-12-29 11:12:05,591 - INFO - Task is still running
+2024-12-29 11:12:22,176 - INFO - Checking status for task ID: 108b4d16-aa46-4be7-98bf-6ccf4cda134a
+2024-12-29 11:12:22,177 - INFO - Task is still running
+2024-12-29 11:13:19,091 - INFO - Fetching results for region: Europe
+2024-12-29 11:13:19,092 - ERROR - Region not found: Europe
+2024-12-29 11:14:39,091 - INFO - Shutting down
+2024-12-29 11:14:39,192 - INFO - Waiting for application shutdown.
+2024-12-29 11:14:39,193 - INFO - Application shutdown complete.
+2024-12-29 11:14:39,193 - INFO - Finished server process [50633]
+2024-12-29 11:14:40,780 - INFO - Started server process [50826]
+2024-12-29 11:14:40,783 - INFO - Waiting for application startup.
+2024-12-29 11:14:40,784 - INFO - Application startup complete.
+2024-12-29 11:14:59,902 - INFO - Shutting down
+2024-12-29 11:15:00,002 - INFO - Waiting for application shutdown.
+2024-12-29 11:15:00,003 - INFO - Application shutdown complete.
+2024-12-29 11:15:00,003 - INFO - Finished server process [50826]
+2024-12-29 11:15:04,328 - INFO - Started server process [50847]
+2024-12-29 11:15:04,329 - INFO - Waiting for application startup.
+2024-12-29 11:15:04,329 - INFO - Application startup complete.
+2024-12-29 11:29:11,482 - INFO - Shutting down
+2024-12-29 11:29:11,583 - INFO - Finished server process [50847]
+2024-12-29 11:29:11,584 - ERROR - Traceback (most recent call last):
+  File "/home/denys/.local/lib/python3.10/site-packages/starlette/routing.py", line 700, in lifespan
+    await receive()
+  File "/usr/lib/python3/dist-packages/uvicorn/lifespan/on.py", line 135, in receive
+    return await self.receive_queue.get()
+  File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
